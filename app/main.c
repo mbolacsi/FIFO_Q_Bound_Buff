@@ -126,9 +126,9 @@ static void usage(char *n)
 
 int main(int argc, char *argv[])
 {
-     int nump = 1;       /*total number of producers*/
-     int numc = 1;       /*total number of consumers*/
-     int numitems = 10;  /*total number of items to produce per thread*/
+     int nump = 4;       /*total number of producers*/
+     int numc = 4;       /*total number of consumers*/
+     int numitems = 36;  /*total number of items to produce*/
      int queue_size = 5; /*The default size of the queue*/
      int c;
 
